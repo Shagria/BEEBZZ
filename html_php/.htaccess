@@ -1,0 +1,8 @@
+<FilesMatch "^.+Database.php">
+    order allow,deny
+    deny from all
+</FilesMatch>
+<FilesMatch "config.php">
+    order allow,deny
+    deny from all
+</FilesMatch>
